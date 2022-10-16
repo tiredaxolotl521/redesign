@@ -9,7 +9,7 @@ body{
 
 
 /* Large screen */
-@media screen and (max-width: 3840px) {
+@media screen and (max-device-width: 3840px) {
     .show-desktop {
         display: block;
         width: 30%;
@@ -333,7 +333,7 @@ body{
  }
 
  /* iPad */
- @media screen and (max-width: 1024px) {
+ @media screen and (max-device-width: 1024px) {
     .show-desktop {
         display: none;
       }
@@ -454,7 +454,7 @@ body{
 
  }
  /* iPhone */
- @media screen and (max-width: 667px) {
+ @media screen and (max-device-width: 667px) {
     .iPhone{
         display: block;
     }
