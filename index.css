@@ -9,7 +9,7 @@ body{
 
 
 /* Large screen */
-@media screen and (max-device-width: 3840px) {
+@media only screen and (max-device-width: 3840px) {
     .show-desktop {
         display: block;
         width: 30%;
@@ -47,7 +47,7 @@ body{
     .white_text{
         width: 30vw;
         color: white;
-        margin: 0;
+        margin: 0.2;
         font-size: 1em;
     }
     .main_search{
@@ -139,6 +139,10 @@ body{
         display: inline-block;
         padding: 0 .5rem 0 .5rem;
         color: black;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
     }
     .arrow_display{
         display: flex;
@@ -162,7 +166,6 @@ body{
       .dropdown {
         position: relative;
         display: inline-block;
-        /* margin: 0 1vw 1vw 1vw; */
         border-radius: 10px;
       }
       
@@ -268,6 +271,8 @@ body{
     width: 1.5vw;
     background-color: white;
     border: solid #444444;
+    min-height: 20px;
+    min-width: 20px;
     border-radius: 30%;
   }
   
@@ -302,6 +307,8 @@ body{
     top: 0.208vw;
     width: 0.347vw;
     height: 0.694vw;
+    min-height: 10px;
+    min-width: 5px;
     border: solid #005D24;
     border-width: 0 .25rem .25rem 0;
     -webkit-transform: rotate(45deg);
@@ -309,7 +316,9 @@ body{
     transform: rotate(45deg);
   }
   .filter_options_div { 
-    margin: 0 20% 0 20%;
+    /* margin: 0 20% 0 20%; */
+
+    margin: 20%;
   }
   .advance_search_dropdown{
     display: flex;
@@ -333,7 +342,7 @@ body{
  }
 
  /* iPad */
- @media screen and (max-device-width: 1024px) {
+ @media only screen and (max-device-width: 1024px) {
     .show-desktop {
         display: none;
       }
@@ -443,7 +452,8 @@ body{
         transform: rotate(45deg);
       }
     .searchbar{
-        font-size: .8rem;
+        font-size: 1.5rem;
+        width: 50vw;
     }
     .time_search{
         width: 50%;
@@ -451,10 +461,13 @@ body{
     .filter_options_div { 
         margin: 0 30% 0 30%;
       }
+      .search-button {
+        font-size: 2rem;
+      }
 
  }
  /* iPhone */
- @media screen and (max-device-width: 667px) {
+ @media only screen and (max-device-width: 667px) {
     .iPhone{
         display: block;
     }
@@ -465,12 +478,30 @@ body{
         background-color: #d0d0d0;
         }
     .logo{
-        width: 60%;
+        width: 40%;
     }
     .topnav a {
         font-size: 3.5rem;
     }
     .searchbar{
+      font-size: 2rem;
         width: 50vw;
     }
+    .result_text{
+      font-size: 0.5rem;
+    }
+    .abstract_test{
+      font-size: 0.8rem;
+    }
+    .dropdown-content a{
+      font-size: 2rem;
+      color:black;
+    }
+    .dropbtn {
+      font-size: 2rem;
+    }
+    .search-button {
+      font-size: 2rem;
+    }
+
  }
