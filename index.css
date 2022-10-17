@@ -389,10 +389,8 @@ body{
     
     }
     .mobile-container {
-        max-width: 480px;
         margin: auto;
         background-color: #555;
-        height: 500px;
         color: white;
         border-radius: 10px;
       }
@@ -402,6 +400,7 @@ body{
         overflow: hidden;
         background-color: white;
         position: relative;
+        margin: 0;
       }
       .dropdown-text{
         font-size: 1rem;
@@ -415,10 +414,10 @@ body{
       }
       .topnav a {
         color: white;
-        padding: 1vw 1vw;
         text-decoration: none;
-        font-size: 5rem;
+        font-size: 8vw;
         display: block;
+        height: 10vw;
       }
       
       .topnav a.icon {
@@ -436,7 +435,6 @@ body{
       
       .active {
         background-color: black;
-        /* color: white; */
       }
       .header{
         display: none;
@@ -491,6 +489,11 @@ body{
         font-size: 2rem;
       }
 
+      .advance_search{
+        margin: 1vw;
+        box-shadow:0 10px 16px 0 rgba(0, 0, 0, 0.3),0 6px 20px 0 rgba(0,0,0,0.3);
+      }
+
  }
  /* phone */
  /* @media only screen and (min-device-width: 320px) and (max-device-width: 667px) { */
@@ -537,5 +540,8 @@ body{
     .search-button {
       font-size: 2rem;
     }
-
+    .topnav a {
+      color: white;
+      font-size: 8vw;
+    }
  }
