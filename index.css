@@ -417,7 +417,6 @@ body{
         text-decoration: none;
         font-size: 8vw;
         display: block;
-        height: 10vw;
       }
       
       .topnav a.icon {
@@ -426,6 +425,7 @@ body{
         position: absolute;
         right: 0;
         top: 0;
+        height: 10vw;
         padding: 0 2vw 0 2vw;
       }
       
@@ -436,6 +436,7 @@ body{
       
       .active {
         background-color: black;
+        height: 10vw;
       }
       .header{
         display: none;
@@ -494,6 +495,7 @@ body{
         margin: 1vw;
         box-shadow:0 10px 16px 0 rgba(0, 0, 0, 0.3),0 6px 20px 0 rgba(0,0,0,0.3);
       }
+      
 
  }
  /* phone */
@@ -540,9 +542,5 @@ body{
     }
     .search-button {
       font-size: 2rem;
-    }
-    .topnav a {
-      color: white;
-      font-size: 8vw;
     }
  }
