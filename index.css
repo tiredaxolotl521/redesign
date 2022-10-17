@@ -403,7 +403,7 @@ body{
         margin: 0;
       }
       .dropdown-text{
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
       
       .topnav #myLinks {
@@ -494,6 +494,13 @@ body{
       .advance_search{
         margin: 1vw;
         box-shadow:0 10px 16px 0 rgba(0, 0, 0, 0.3),0 6px 20px 0 rgba(0,0,0,0.3);
+      }
+      .dropbtn {
+        font-size: 2rem;
+      }
+      .dropdown-content a{
+        font-size: 2rem;
+        color:black;
       }
       
 
