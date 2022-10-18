@@ -10,7 +10,8 @@ body{
 
 /* Large screen */
 /* @media only screen and (min-device-width: 3840px) and(max-device-width: 2160px) { */
-  @media only screen and (max-device-width: 2160px) {
+  /* @media only screen and (max-device-width: 2160px) { */
+@media only screen and (max-width: 2160px) {
     .show-desktop {
         display: block;
         width: 30%;
@@ -231,10 +232,10 @@ body{
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 14px 16px;
+        padding: 1vw;
         font-size: 1rem;
         width: 20%;
-        min-height: 4.5rem;
+        /* min-height: 4.5rem; */
       }
 
     .filter {
@@ -369,11 +370,16 @@ body{
       flex-direction: column;
       margin: 0;
     }
+
+    .title_text{
+      font-size: 1.5rem;
+    }
  }
 
  /* iPad */
  /* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { */
-  @media only screen and (max-device-width: 1024px){
+  /* @media only screen and (max-device-width: 1024px){ */
+    @media only screen and (max-width: 1150px){
     .show-desktop {
         display: none;
       }
@@ -496,7 +502,7 @@ body{
         box-shadow:0 10px 16px 0 rgba(0, 0, 0, 0.3),0 6px 20px 0 rgba(0,0,0,0.3);
       }
       .dropbtn {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
       .dropdown-content a{
         font-size: 2rem;
@@ -507,7 +513,7 @@ body{
  }
  /* phone */
  /* @media only screen and (min-device-width: 320px) and (max-device-width: 667px) { */
-  @media only screen and (max-device-width: 667px) {
+  @media only screen and (max-device-width: 667px){
     p{
       font-size: 4vw;
     }
@@ -531,14 +537,14 @@ body{
         font-size: 3.5rem;
     }
     .searchbar{
-      font-size: 2rem;
+      font-size: 1.5rem;
         width: 50vw;
     }
     .result_text{
       font-size: .5rem;
     }
     .abstract_test{
-      font-size: .8rem;
+      font-size: 1rem;
     }
     .dropdown-content a{
       font-size: 2rem;
@@ -548,6 +554,79 @@ body{
       font-size: 2rem;
     }
     .search-button {
-      font-size: 2rem;
+      font-size: 1.5rem;
+    }
+    .active {
+      background-color: black;
+      height: 12vw;
+    }
+    .topnav a.icon {
+      height: 12vw;
+    }
+    .title_text{
+      font-size: 1.2rem;
+    }
+
+    .red_text{
+      font-size: 1rem;
     }
  }
+ 
+ @media only screen and (max-width: 667px) {
+  p{
+    font-size: 4vw;
+  }
+  .arrow {
+    font-size: 5vw;
+  }
+
+  .iPhone{
+      display: block;
+  }
+  .not-iPhone{
+      display: none;
+  }
+  #click  {
+      background-color: #d0d0d0;
+      }
+  .logo{
+      width: 40%;
+  }
+  .topnav a {
+      font-size: 3.5rem;
+  }
+  .searchbar{
+    font-size: 1.5rem;
+      width: 50vw;
+  }
+  .result_text{
+    font-size: .5rem;
+  }
+  .abstract_test{
+    font-size: 1rem;
+  }
+  .dropdown-content a{
+    font-size: 1.2rem;
+    color:black;
+  }
+  .dropbtn {
+    font-size: 1.2rem;
+  }
+  .search-button {
+    font-size: 1.5rem;
+  }
+  .active {
+    background-color: black;
+    height: 12vw;
+  }
+  .topnav a.icon {
+    height: 12vw;
+  }
+  .title_text{
+    font-size: 1.2rem;
+  }
+
+  .red_text{
+    font-size: 1rem;
+  }
+}
